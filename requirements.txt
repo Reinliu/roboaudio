@@ -1,0 +1,7 @@
+scipy>=1.8
+numpy>=1.23
+soundfile>=0.12
+pyroomacoustics>=0.7.6
+openai-whisper>=20230918
+torch>=2.0
+tqdm
