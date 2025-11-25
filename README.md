@@ -1,6 +1,6 @@
 # spatial_audio_processor (Python)
 
-ROS 2 package for:
+This repository provides a package for:
 - multichannel audio input (simulated wav)
 - DoA localisation using pyroomacoustics (SRP-PHAT)
 - speech recognition using Whisper
