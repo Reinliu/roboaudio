@@ -6,10 +6,10 @@ This repository provides a package for:
 - speech recognition using Whisper
 - speaker diarization with pyAudioAnalysis
 - noise reduction with spectral gatting using librosa
-- publishing spatially-aware commands to `/recognised_commands`
+- print out the transcriptions and degrees
 
 ## Requirements
-- Python 3.9+
+- Python 3.10+
 
 ## Install
 
