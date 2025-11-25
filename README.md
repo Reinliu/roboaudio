@@ -31,3 +31,7 @@ pip install -r requirements.txt
 cd spatial_audio_processor
 python main.py
 ```
+
+
+# ROS implementation (Work in Progress)
+This repo currently only supports running main.py using Python. I'm continuously working on the ROS integration.
