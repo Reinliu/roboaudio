@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>roboaudio</name>
+  <version>0.0.1</version>
+  <description>ROS 2 Python package for multichannel DoA + Whisper ASR + diarization.</description>
+
+  <maintainer email="reinliusound@gmail.com">Rein Liu</maintainer>
+  <license>MIT</license>
+
+  <!-- Build tool -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <!-- ROS runtime deps -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+
+  <!-- These are rosdep-resolvable Ubuntu packages -->
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-scipy</exec_depend>
+
+  <!-- pip-only deps (whisper/librosa/pyroomacoustics/pyAudioAnalysis)
+       are documented in requirements.txt and README -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

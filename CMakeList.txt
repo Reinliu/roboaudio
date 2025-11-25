@@ -1,0 +1,25 @@
+cmake_minimum_required(VERSION 3.8)
+project(spatial_audio_processor)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+find_package(ament_cmake REQUIRED)
+find_package(ament_python REQUIRED)
+
+# Install the python package
+ament_python_install_package(${PROJECT_NAME})
+
+# Install entry-point scripts from setup.py
+install(PROGRAMS
+  scripts/main_ros
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install other files (optional)
+install(DIRECTORY test_vectors
+  DESTINATION share/${PROJECT_NAME}/
+)
+
+ament_package()
