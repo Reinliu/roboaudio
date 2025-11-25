@@ -24,7 +24,7 @@ conda install -c conda-forge "libstdcxx-ng>=11" "libgcc-ng>=11"
 pip install -r requirements.txt
 ```
 
-### 3. Run the Script
+### 3. Run the main.py from spatial_audio_processor to load audio and print out actions.
 ```
-python main.py --wav /path_to_audio.wav
+python main.py
 ```
