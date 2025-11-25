@@ -28,5 +28,6 @@ pip install -r requirements.txt
 
 ### 3. Run the main.py from spatial_audio_processor to load audio and print out actions.
 ```
+cd spatial_audio_processor
 python main.py
 ```
