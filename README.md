@@ -1,9 +1,11 @@
 # spatial_audio_processor (Python)
 
 This repository provides a package for:
-- multichannel audio input (simulated wav)
-- DoA localisation using pyroomacoustics (SRP-PHAT)
+- multichannel audio input 
+- DoA localisation using pyroomacoustics 
 - speech recognition using Whisper
+- speaker diarization with pyAudioAnalysis
+- noise reduction with spectral gatting using librosa
 - publishing spatially-aware commands to `/recognised_commands`
 
 ## Requirements
