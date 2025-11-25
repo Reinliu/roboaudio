@@ -16,7 +16,7 @@ This repository provides a package for:
 conda create -n roboaudio python==3.9
 conda activate roboaudio
 conda install -c conda-forge "libstdcxx-ng>=11" "libgcc-ng>=11"
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### 2. Clone the Repo
