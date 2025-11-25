@@ -18,7 +18,7 @@ git clone https://github.com/Reinliu/roboaudio.git
 
 ### 2. Configure Python Environment
 ```
-conda create -n roboaudio python==3.9
+conda create -n roboaudio python==3.10
 conda activate roboaudio
 conda install -c conda-forge "libstdcxx-ng>=11" "libgcc-ng>=11"
 pip install -r requirements.txt
