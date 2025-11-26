@@ -10,8 +10,8 @@ setup(
         ("share/ament_index/resource_index/packages",
          ["resource/" + package_name]),
         ("share/" + package_name, ["package.xml"]),
-        ("share/" + package_name + "/test_vectors", [
-            "test_vectors/generated_synthetic_sig_spliced.wav"
+        ("share/" + package_name + "/test_audio", [
+            "test_audio/generated_synthetic_sig_spliced.wav"
         ]),
     ],
     install_requires=["setuptools"],
